@@ -3,7 +3,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-  attendes.collect { |name|
+  attendees.collect { |name|
   "Hello, my name is #{name}." }
 end
   
