@@ -15,4 +15,7 @@ end
   end
 
 def printer(attendees)
-    batch_badge_creator(attendees) { |value| 
+    batch_badge_creator(attendees).each { |value| 
+    value}
+  end
+  
