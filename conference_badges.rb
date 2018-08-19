@@ -12,5 +12,4 @@ end
 attendees.collect {  |name|
 room += 1
 "Hello, #{name} You'll be assigned to #{room}!"
-  
-end
+  end
