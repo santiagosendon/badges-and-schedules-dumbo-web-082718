@@ -11,5 +11,5 @@ end
     room = 0
 attendees.collect {  |name|
 room += 1
-"Hello, #{name} You'll be assigned to #{room}!"}
+"Hello, #{name}! You'll be assigned to #{room}!"}
   end
