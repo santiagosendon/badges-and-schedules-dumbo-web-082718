@@ -15,10 +15,10 @@ end
   end
 
 def printer(attendees)
-    batch_badge_creator(attendees).each { |value| 
+  batch_badge_creator(attendees).each { |value|
     puts value}
-  end
-  assign_rooms(attendees).each { |value| 
-  puts value}
-end
+  
+  assign_rooms(attendees).each { |value|
+    puts value}
+  
 end
