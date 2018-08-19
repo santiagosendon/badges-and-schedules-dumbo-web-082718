@@ -9,4 +9,4 @@ end
   
   def assign_rooms(attendees)
     room = 0
-attendees.collect { 
+attendees.collect {  |name| 
