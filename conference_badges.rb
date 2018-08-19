@@ -18,4 +18,4 @@ def printer(attendees)
     batch_badge_creator(attendees).each { |value| 
     puts value}
   end
-def 
+def print
